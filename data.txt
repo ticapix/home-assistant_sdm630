@@ -34,7 +34,7 @@
 30079 40 Export VArh since last reset. kVArh/MVArh 00 4E √ √ √
 30081 41 VAh since last reset. kVAh/MVAh 00 50 √ √ √
 30083 42 Ah since last reset. Ah/kAh 00 52 √ √ √
-30085 43 Total system power demand. W 00 54 √ √ √
+30085 43 Total system power demand. Watts 00 54 √ √ √
 30087 44 Maximum total system power demand. VA 00 56 √ √ √
 30101 51 Total system VA demand. VA 00 64 √ √ √
 30103 52 Maximum total system VA demand. VA 00 66 √ √ √
