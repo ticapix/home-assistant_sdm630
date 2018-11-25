@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import os
 import yaml
-from collections import OrderedDict
 
 if __name__ == "__main__":
     registers = []
