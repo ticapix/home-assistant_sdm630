@@ -1,0 +1,688 @@
+- count: 2
+  data_type: float
+  name: Phase 1 line to neutral volts
+  precision: 2
+  register: 0
+  register_type: input
+  slave: 1
+  unit_of_measurement: Volts
+- count: 2
+  data_type: float
+  name: Phase 2 line to neutral volts
+  precision: 2
+  register: 2
+  register_type: input
+  slave: 1
+  unit_of_measurement: Volts
+- count: 2
+  data_type: float
+  name: Phase 3 line to neutral volts
+  precision: 2
+  register: 4
+  register_type: input
+  slave: 1
+  unit_of_measurement: Volts
+- count: 2
+  data_type: float
+  name: Phase 1 current
+  precision: 2
+  register: 6
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Phase 2 current
+  precision: 2
+  register: 8
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Phase 3 current
+  precision: 2
+  register: 10
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Phase 1 power
+  precision: 2
+  register: 12
+  register_type: input
+  slave: 1
+  unit_of_measurement: Watts
+- count: 2
+  data_type: float
+  name: Phase 2 power
+  precision: 2
+  register: 14
+  register_type: input
+  slave: 1
+  unit_of_measurement: Watts
+- count: 2
+  data_type: float
+  name: Phase 3 power
+  precision: 2
+  register: 16
+  register_type: input
+  slave: 1
+  unit_of_measurement: Watts
+- count: 2
+  data_type: float
+  name: Phase 1 volt amps
+  precision: 2
+  register: 18
+  register_type: input
+  slave: 1
+  unit_of_measurement: VA
+- count: 2
+  data_type: float
+  name: Phase 2 volt amps
+  precision: 2
+  register: 20
+  register_type: input
+  slave: 1
+  unit_of_measurement: VA
+- count: 2
+  data_type: float
+  name: Phase 3 volt amps
+  precision: 2
+  register: 22
+  register_type: input
+  slave: 1
+  unit_of_measurement: VA
+- count: 2
+  data_type: float
+  name: Phase 1 volt amps reactive
+  precision: 2
+  register: 24
+  register_type: input
+  slave: 1
+  unit_of_measurement: VAr
+- count: 2
+  data_type: float
+  name: Phase 2 volt amps reactive
+  precision: 2
+  register: 26
+  register_type: input
+  slave: 1
+  unit_of_measurement: VAr
+- count: 2
+  data_type: float
+  name: Phase 3 volt amps reactive
+  precision: 2
+  register: 28
+  register_type: input
+  slave: 1
+  unit_of_measurement: VAr
+- count: 2
+  data_type: float
+  name: Phase 1 power factor (1)
+  precision: 2
+  register: 30
+  register_type: input
+  slave: 1
+  unit_of_measurement: None
+- count: 2
+  data_type: float
+  name: Phase 2 power factor (1)
+  precision: 2
+  register: 32
+  register_type: input
+  slave: 1
+  unit_of_measurement: None
+- count: 2
+  data_type: float
+  name: Phase 3 power factor (1)
+  precision: 2
+  register: 34
+  register_type: input
+  slave: 1
+  unit_of_measurement: None
+- count: 2
+  data_type: float
+  name: Phase 1 phase angle
+  precision: 2
+  register: 36
+  register_type: input
+  slave: 1
+  unit_of_measurement: Degrees
+- count: 2
+  data_type: float
+  name: Phase 2 phase angle
+  precision: 2
+  register: 38
+  register_type: input
+  slave: 1
+  unit_of_measurement: Degrees
+- count: 2
+  data_type: float
+  name: Phase 3 phase angle
+  precision: 2
+  register: 40
+  register_type: input
+  slave: 1
+  unit_of_measurement: Degrees
+- count: 2
+  data_type: float
+  name: Average line to neutral volts
+  precision: 2
+  register: 42
+  register_type: input
+  slave: 1
+  unit_of_measurement: Volts
+- count: 2
+  data_type: float
+  name: Average line current
+  precision: 2
+  register: 46
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Sum of line currents
+  precision: 2
+  register: 48
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Total system power
+  precision: 2
+  register: 52
+  register_type: input
+  slave: 1
+  unit_of_measurement: Watts
+- count: 2
+  data_type: float
+  name: Total system volt amps
+  precision: 2
+  register: 56
+  register_type: input
+  slave: 1
+  unit_of_measurement: VA
+- count: 2
+  data_type: float
+  name: Total system VAr
+  precision: 2
+  register: 60
+  register_type: input
+  slave: 1
+  unit_of_measurement: VAr
+- count: 2
+  data_type: float
+  name: Total system power factor (1)
+  precision: 2
+  register: 62
+  register_type: input
+  slave: 1
+  unit_of_measurement: None
+- count: 2
+  data_type: float
+  name: Total system phase angle
+  precision: 2
+  register: 66
+  register_type: input
+  slave: 1
+  unit_of_measurement: Degrees
+- count: 2
+  data_type: float
+  name: Frequency of supply voltages
+  precision: 2
+  register: 70
+  register_type: input
+  slave: 1
+  unit_of_measurement: Hz
+- count: 2
+  data_type: float
+  name: Import Wh since last reset (2)
+  precision: 2
+  register: 72
+  register_type: input
+  slave: 1
+  unit_of_measurement: kWh/MWh
+- count: 2
+  data_type: float
+  name: Export Wh since last reset (2)
+  precision: 2
+  register: 74
+  register_type: input
+  slave: 1
+  unit_of_measurement: kWH/MWh
+- count: 2
+  data_type: float
+  name: Import VArh since last reset (2)
+  precision: 2
+  register: 76
+  register_type: input
+  slave: 1
+  unit_of_measurement: kVArh/MVArh
+- count: 2
+  data_type: float
+  name: Export VArh since last reset (2)
+  precision: 2
+  register: 78
+  register_type: input
+  slave: 1
+  unit_of_measurement: kVArh/MVArh
+- count: 2
+  data_type: float
+  name: VAh since last reset (2)
+  precision: 2
+  register: 80
+  register_type: input
+  slave: 1
+  unit_of_measurement: kVAh/MVAh
+- count: 2
+  data_type: float
+  name: Ah since last reset(3)
+  precision: 2
+  register: 82
+  register_type: input
+  slave: 1
+  unit_of_measurement: Ah/kAh
+- count: 2
+  data_type: float
+  name: Total system power demand (4)
+  precision: 2
+  register: 84
+  register_type: input
+  slave: 1
+  unit_of_measurement: W
+- count: 2
+  data_type: float
+  name: Maximum total system power demand (4)
+  precision: 2
+  register: 86
+  register_type: input
+  slave: 1
+  unit_of_measurement: VA
+- count: 2
+  data_type: float
+  name: Total system VA demand
+  precision: 2
+  register: 100
+  register_type: input
+  slave: 1
+  unit_of_measurement: VA
+- count: 2
+  data_type: float
+  name: Maximum total system VA demand
+  precision: 2
+  register: 102
+  register_type: input
+  slave: 1
+  unit_of_measurement: VA
+- count: 2
+  data_type: float
+  name: Neutral current demand
+  precision: 2
+  register: 104
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Maximum neutral current demand
+  precision: 2
+  register: 106
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Line 1 to Line 2 volts
+  precision: 2
+  register: 200
+  register_type: input
+  slave: 1
+  unit_of_measurement: Volts
+- count: 2
+  data_type: float
+  name: Line 2 to Line 3 volts
+  precision: 2
+  register: 202
+  register_type: input
+  slave: 1
+  unit_of_measurement: Volts
+- count: 2
+  data_type: float
+  name: Line 3 to Line 1 volts
+  precision: 2
+  register: 204
+  register_type: input
+  slave: 1
+  unit_of_measurement: Volts
+- count: 2
+  data_type: float
+  name: Average line to line volts
+  precision: 2
+  register: 206
+  register_type: input
+  slave: 1
+  unit_of_measurement: Volts
+- count: 2
+  data_type: float
+  name: Neutral current
+  precision: 2
+  register: 224
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Phase 1 L/N volts THD
+  precision: 2
+  register: 234
+  register_type: input
+  slave: 1
+  unit_of_measurement: '%'
+- count: 2
+  data_type: float
+  name: Phase 2 L/N volts THD
+  precision: 2
+  register: 236
+  register_type: input
+  slave: 1
+  unit_of_measurement: '%'
+- count: 2
+  data_type: float
+  name: Phase 3 L/N volts THD
+  precision: 2
+  register: 238
+  register_type: input
+  slave: 1
+  unit_of_measurement: '%'
+- count: 2
+  data_type: float
+  name: Phase 1 Current THD
+  precision: 2
+  register: 240
+  register_type: input
+  slave: 1
+  unit_of_measurement: '%'
+- count: 2
+  data_type: float
+  name: Phase 2 Current THD
+  precision: 2
+  register: 242
+  register_type: input
+  slave: 1
+  unit_of_measurement: '%'
+- count: 2
+  data_type: float
+  name: Phase 3 Current THD
+  precision: 2
+  register: 244
+  register_type: input
+  slave: 1
+  unit_of_measurement: '%'
+- count: 2
+  data_type: float
+  name: Average line to neutral volts THD
+  precision: 2
+  register: 248
+  register_type: input
+  slave: 1
+  unit_of_measurement: '%'
+- count: 2
+  data_type: float
+  name: Average line current THD
+  precision: 2
+  register: 250
+  register_type: input
+  slave: 1
+  unit_of_measurement: '%'
+- count: 2
+  data_type: float
+  name: Total system power factor (5)
+  precision: 2
+  register: 254
+  register_type: input
+  slave: 1
+  unit_of_measurement: Degree
+- count: 2
+  data_type: float
+  name: Phase 1 current demand
+  precision: 2
+  register: 258
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Phase 2 current demand
+  precision: 2
+  register: 260
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Phase 3 current demand
+  precision: 2
+  register: 262
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Maximum phase 1 current demand
+  precision: 2
+  register: 264
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Maximum phase 2 current demand
+  precision: 2
+  register: 266
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Maximum phase 3 current demand
+  precision: 2
+  register: 268
+  register_type: input
+  slave: 1
+  unit_of_measurement: Amps
+- count: 2
+  data_type: float
+  name: Line 1 to line 2 volts THD
+  precision: 2
+  register: 334
+  register_type: input
+  slave: 1
+  unit_of_measurement: "\uFF05"
+- count: 2
+  data_type: float
+  name: Line 2 to line 3 volts THD
+  precision: 2
+  register: 336
+  register_type: input
+  slave: 1
+  unit_of_measurement: "\uFF05"
+- count: 2
+  data_type: float
+  name: Line 3 to line 1 volts THD
+  precision: 2
+  register: 338
+  register_type: input
+  slave: 1
+  unit_of_measurement: "\uFF05"
+- count: 2
+  data_type: float
+  name: Average line to line volts THD
+  precision: 2
+  register: 340
+  register_type: input
+  slave: 1
+  unit_of_measurement: "\uFF05"
+- count: 2
+  data_type: float
+  name: Total kwh
+  precision: 2
+  register: 342
+  register_type: input
+  slave: 1
+  unit_of_measurement: kwh
+- count: 2
+  data_type: float
+  name: Total kvarh
+  precision: 2
+  register: 344
+  register_type: input
+  slave: 1
+  unit_of_measurement: kvarh
+- count: 2
+  data_type: float
+  name: L1 import kwh
+  precision: 2
+  register: 346
+  register_type: input
+  slave: 1
+  unit_of_measurement: kwh
+- count: 2
+  data_type: float
+  name: L2 import kwh
+  precision: 2
+  register: 348
+  register_type: input
+  slave: 1
+  unit_of_measurement: kwh
+- count: 2
+  data_type: float
+  name: L3 import kWh
+  precision: 2
+  register: 350
+  register_type: input
+  slave: 1
+  unit_of_measurement: kwh
+- count: 2
+  data_type: float
+  name: L1 export kWh
+  precision: 2
+  register: 352
+  register_type: input
+  slave: 1
+  unit_of_measurement: kwh
+- count: 2
+  data_type: float
+  name: L2 export kwh
+  precision: 2
+  register: 354
+  register_type: input
+  slave: 1
+  unit_of_measurement: kwh
+- count: 2
+  data_type: float
+  name: L3 export kWh
+  precision: 2
+  register: 356
+  register_type: input
+  slave: 1
+  unit_of_measurement: kwh
+- count: 2
+  data_type: float
+  name: L1 total kwh
+  precision: 2
+  register: 358
+  register_type: input
+  slave: 1
+  unit_of_measurement: kwh
+- count: 2
+  data_type: float
+  name: L2 total kWh
+  precision: 2
+  register: 360
+  register_type: input
+  slave: 1
+  unit_of_measurement: kwh
+- count: 2
+  data_type: float
+  name: L3 total kwh
+  precision: 2
+  register: 362
+  register_type: input
+  slave: 1
+  unit_of_measurement: kwh
+- count: 2
+  data_type: float
+  name: L1 import kvarh
+  precision: 2
+  register: 364
+  register_type: input
+  slave: 1
+  unit_of_measurement: kvarh
+- count: 2
+  data_type: float
+  name: L2 import kvarh
+  precision: 2
+  register: 366
+  register_type: input
+  slave: 1
+  unit_of_measurement: kvarh
+- count: 2
+  data_type: float
+  name: L3 import kvarh
+  precision: 2
+  register: 368
+  register_type: input
+  slave: 1
+  unit_of_measurement: kvarh
+- count: 2
+  data_type: float
+  name: L1 export kvarh
+  precision: 2
+  register: 370
+  register_type: input
+  slave: 1
+  unit_of_measurement: kvarh
+- count: 2
+  data_type: float
+  name: L2 export kvarh
+  precision: 2
+  register: 372
+  register_type: input
+  slave: 1
+  unit_of_measurement: kvarh
+- count: 2
+  data_type: float
+  name: L3 export kvarh
+  precision: 2
+  register: 374
+  register_type: input
+  slave: 1
+  unit_of_measurement: kvarh
+- count: 2
+  data_type: float
+  name: L1 total kvarh
+  precision: 2
+  register: 376
+  register_type: input
+  slave: 1
+  unit_of_measurement: kvarh
+- count: 2
+  data_type: float
+  name: L2 total kvarh
+  precision: 2
+  register: 378
+  register_type: input
+  slave: 1
+  unit_of_measurement: kvarh
+- count: 2
+  data_type: float
+  name: L3 total kvarh
+  precision: 2
+  register: 380
+  register_type: input
+  slave: 1
+  unit_of_measurement: kvarh

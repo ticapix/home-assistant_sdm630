@@ -1,0 +1,86 @@
+30001 1 Phase 1 line to neutral volts. Volts 00 00 √ X √
+30003 2 Phase 2 line to neutral volts. Volts 00 02 √ X X
+30005 3 Phase 3 line to neutral volts. Volts 00 04 √ X X
+30007 4 Phase 1 current. Amps 00 06 √ √ √
+30009 5 Phase 2 current. Amps 00 08 √ √ X
+30011 6 Phase 3 current. Amps 00 0A √ √ X
+30013 7 Phase 1 power. Watts 00 0C √ X √
+30015 8 Phase 2 power. Watts 00 0E √ X √
+30017 9 Phase 3 power. Watts 00 10 √ X X
+30019 10 Phase 1 volt amps. VA 00 12 √ X √
+30021 11 Phase 2 volt amps. VA 00 14 √ X X
+30023 12 Phase 3 volt amps. VA 00 16 √ X X
+30025 13 Phase 1 volt amps reactive. VAr 00 18 √ X √
+30027 14 Phase 2 volt amps reactive. VAr 00 1A √ X X
+30029 15 Phase 3 volt amps reactive. VAr 00 1C √ X X
+30031 16 Phase 1 power factor (1). None 00 1E √ X √
+30033 17 Phase 2 power factor (1). None 00 20 √ X X
+30035 18 Phase 3 power factor (1). None 00 22 √ X X
+30037 19 Phase 1 phase angle. Degrees 00 24 √ X √
+30039 20 Phase 2 phase angle. Degrees 00 26 √ X X
+30041 21 Phase 3 phase angle. Degrees 00 28 √ X X
+30043 22 Average line to neutral volts. Volts 00 2A √ X X
+30047 24 Average line current. Amps 00 2E √ √ √
+30049 25 Sum of line currents. Amps 00 30 √ √ √
+30053 27 Total system power. Watts 00 34 √ √ √
+30057 29 Total system volt amps. VA 00 38 √ √ √
+30061 31 Total system VAr. VAr 00 3C √ √ √
+30063 32 Total system power factor (1). None 00 3E √ √ √
+30067 34 Total system phase angle. Degrees 00 42 √ √ √
+30071 36 Frequency of supply voltages. Hz 00 46 √ √ √
+30073 37 Import Wh since last reset (2). kWh/MWh 00 48 √ √ √
+30075 38 Export Wh since last reset (2). kWH/MWh 00 4A √ √ √
+30077 39 Import VArh since last reset (2). kVArh/MVArh 00 4C √ √ √
+30079 40 Export VArh since last reset (2). kVArh/MVArh 00 4E √ √ √
+30081 41 VAh since last reset (2). kVAh/MVAh 00 50 √ √ √
+30083 42 Ah since last reset(3). Ah/kAh 00 52 √ √ √
+30085 43 Total system power demand (4). W 00 54 √ √ √
+30087 44 Maximum total system power demand (4). VA 00 56 √ √ √
+30101 51 Total system VA demand. VA 00 64 √ √ √
+30103 52 Maximum total system VA demand. VA 00 66 √ √ √
+30105 53 Neutral current demand. Amps 00 68 √ X X
+30107 54 Maximum neutral current demand. Amps 00 6A √ X X
+30201 101 Line 1 to Line 2 volts. Volts 00 C8 √ √ X
+30203 102 Line 2 to Line 3 volts. Volts 00 CA √ √ X
+30205 103 Line 3 to Line 1 volts. Volts 00 CC √ √ X
+30207 104 Average line to line volts. Volts 00 CE √ √ X
+30225 113 Neutral current. Amps 00 E0 √ X X
+30235 118 Phase 1 L/N volts THD % 00 EA √ X √
+30237 119 Phase 2 L/N volts THD % 00 EC √ X X
+30239 120 Phase 3 L/N volts THD % 00 EE √ X X
+30241 121 Phase 1 Current THD % 00 F0 √ √ √
+30243 122 Phase 2 Current THD % 00 F2 √ √ X
+30245 123 Phase 3 Current THD % 00 F4 √ √ X
+30249 125 Average line to neutral volts THD. % 00 F8 √ X √
+30251 126 Average line current THD. % 00 FA √ √ √
+30255 128 Total system power factor (5). Degree 00 FE √ √ √
+30259 130 Phase 1 current demand. Amps 01 02 √ √ √
+30261 131 Phase 2 current demand. Amps 01 04 √ √ X
+30263 132 Phase 3 current demand. Amps 01 06 √ √ X
+30265 133 Maximum phase 1 current demand. Amps 01 08 √ √ √
+30267 134 Maximum phase 2 current demand. Amps 01 0A √ √ X
+30269 135 Maximum phase 3 current demand. Amps 01 0C √ √ X
+30335 168 Line 1 to line 2 volts THD. ％ 01 4E √ √ X
+30337 169 Line 2 to line 3 volts THD. ％ 01 50 √ √ X
+30339 170 Line 3 to line 1 volts THD. ％ 01 52 √ √ X
+30341 171 Average line to line volts THD. ％ 01 54 √ √ X
+30343 172 Total kwh kwh 01 56 √ √ √
+30345 173 Total kvarh kvarh 01 58 √ √ √
+30347 174 L1 import kwh kwh 01 5a √ √ √
+30349 175 L2 import kwh kwh 01 5c √ √ √
+30351 176 L3 import kWh kwh 01 5e √ √ √
+30353 177 L1 export kWh kwh 01 60 √ √ √
+30355 178 L2 export kwh kwh 01 62 √ √ √
+30357 179 L3 export kWh kwh 01 64 √ √ √
+30359 180 L1 total kwh kwh 01 66 √ √ √
+30361 181 L2 total kWh kwh 01 68 √ √ √
+30363 182 L3 total kwh kwh 01 6a √ √ √
+30365 183 L1 import kvarh kvarh 01 6c √ √ √
+30367 184 L2 import kvarh kvarh 01 6e √ √ √
+30369 185 L3 import kvarh kvarh 01 70 √ √ √
+30371 186 L1 export kvarh kvarh 01 72 √ √ √
+30373 187 L2 export kvarh kvarh 01 74 √ √ √
+30375 188 L3 export kvarh kvarh 01 76 √ √ √
+30377 189 L1 total kvarh kvarh 01 78 √ √ √
+30379 190 L2 total kvarh kvarh 01 7a √ √ √
+30381 191 L3 total kvarh kvarh 01 7c √ √ √
