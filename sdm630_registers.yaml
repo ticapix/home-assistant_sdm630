@@ -120,7 +120,7 @@
   unit_of_measurement: VAr
 - count: 2
   data_type: float
-  name: Phase 1 power factor (1)
+  name: Phase 1 power factor
   precision: 2
   register: 30
   register_type: input
@@ -128,7 +128,7 @@
   unit_of_measurement: None
 - count: 2
   data_type: float
-  name: Phase 2 power factor (1)
+  name: Phase 2 power factor
   precision: 2
   register: 32
   register_type: input
@@ -136,7 +136,7 @@
   unit_of_measurement: None
 - count: 2
   data_type: float
-  name: Phase 3 power factor (1)
+  name: Phase 3 power factor
   precision: 2
   register: 34
   register_type: input
@@ -216,7 +216,7 @@
   unit_of_measurement: VAr
 - count: 2
   data_type: float
-  name: Total system power factor (1)
+  name: Total system power factor
   precision: 2
   register: 62
   register_type: input
@@ -240,7 +240,7 @@
   unit_of_measurement: Hz
 - count: 2
   data_type: float
-  name: Import Wh since last reset (2)
+  name: Import Wh since last reset
   precision: 2
   register: 72
   register_type: input
@@ -248,7 +248,7 @@
   unit_of_measurement: kWh/MWh
 - count: 2
   data_type: float
-  name: Export Wh since last reset (2)
+  name: Export Wh since last reset
   precision: 2
   register: 74
   register_type: input
@@ -256,7 +256,7 @@
   unit_of_measurement: kWH/MWh
 - count: 2
   data_type: float
-  name: Import VArh since last reset (2)
+  name: Import VArh since last reset
   precision: 2
   register: 76
   register_type: input
@@ -264,7 +264,7 @@
   unit_of_measurement: kVArh/MVArh
 - count: 2
   data_type: float
-  name: Export VArh since last reset (2)
+  name: Export VArh since last reset
   precision: 2
   register: 78
   register_type: input
@@ -272,7 +272,7 @@
   unit_of_measurement: kVArh/MVArh
 - count: 2
   data_type: float
-  name: VAh since last reset (2)
+  name: VAh since last reset
   precision: 2
   register: 80
   register_type: input
@@ -280,7 +280,7 @@
   unit_of_measurement: kVAh/MVAh
 - count: 2
   data_type: float
-  name: Ah since last reset(3)
+  name: Ah since last reset
   precision: 2
   register: 82
   register_type: input
@@ -288,15 +288,15 @@
   unit_of_measurement: Ah/kAh
 - count: 2
   data_type: float
-  name: Total system power demand (4)
+  name: Total system power demand
   precision: 2
   register: 84
   register_type: input
   slave: 1
-  unit_of_measurement: W
+  unit_of_measurement: Watts
 - count: 2
   data_type: float
-  name: Maximum total system power demand (4)
+  name: Maximum total system power demand
   precision: 2
   register: 86
   register_type: input
@@ -440,7 +440,7 @@
   unit_of_measurement: '%'
 - count: 2
   data_type: float
-  name: Total system power factor (5)
+  name: Total system power factor
   precision: 2
   register: 254
   register_type: input
@@ -501,7 +501,7 @@
   register: 334
   register_type: input
   slave: 1
-  unit_of_measurement: "\uFF05"
+  unit_of_measurement: '%'
 - count: 2
   data_type: float
   name: Line 2 to line 3 volts THD
@@ -509,7 +509,7 @@
   register: 336
   register_type: input
   slave: 1
-  unit_of_measurement: "\uFF05"
+  unit_of_measurement: '%'
 - count: 2
   data_type: float
   name: Line 3 to line 1 volts THD
@@ -517,7 +517,7 @@
   register: 338
   register_type: input
   slave: 1
-  unit_of_measurement: "\uFF05"
+  unit_of_measurement: '%'
 - count: 2
   data_type: float
   name: Average line to line volts THD
@@ -525,39 +525,39 @@
   register: 340
   register_type: input
   slave: 1
-  unit_of_measurement: "\uFF05"
+  unit_of_measurement: '%'
 - count: 2
   data_type: float
-  name: Total kwh
+  name: Total kWh
   precision: 2
   register: 342
   register_type: input
   slave: 1
-  unit_of_measurement: kwh
+  unit_of_measurement: kWh
 - count: 2
   data_type: float
-  name: Total kvarh
+  name: Total kVArh
   precision: 2
   register: 344
   register_type: input
   slave: 1
-  unit_of_measurement: kvarh
+  unit_of_measurement: kVArh
 - count: 2
   data_type: float
-  name: L1 import kwh
+  name: L1 import kWh
   precision: 2
   register: 346
   register_type: input
   slave: 1
-  unit_of_measurement: kwh
+  unit_of_measurement: kWh
 - count: 2
   data_type: float
-  name: L2 import kwh
+  name: L2 import kWh
   precision: 2
   register: 348
   register_type: input
   slave: 1
-  unit_of_measurement: kwh
+  unit_of_measurement: kWh
 - count: 2
   data_type: float
   name: L3 import kWh
@@ -565,7 +565,7 @@
   register: 350
   register_type: input
   slave: 1
-  unit_of_measurement: kwh
+  unit_of_measurement: kWh
 - count: 2
   data_type: float
   name: L1 export kWh
@@ -573,15 +573,15 @@
   register: 352
   register_type: input
   slave: 1
-  unit_of_measurement: kwh
+  unit_of_measurement: kWh
 - count: 2
   data_type: float
-  name: L2 export kwh
+  name: L2 export kWh
   precision: 2
   register: 354
   register_type: input
   slave: 1
-  unit_of_measurement: kwh
+  unit_of_measurement: kWh
 - count: 2
   data_type: float
   name: L3 export kWh
@@ -589,15 +589,15 @@
   register: 356
   register_type: input
   slave: 1
-  unit_of_measurement: kwh
+  unit_of_measurement: kWh
 - count: 2
   data_type: float
-  name: L1 total kwh
+  name: L1 total kWh
   precision: 2
   register: 358
   register_type: input
   slave: 1
-  unit_of_measurement: kwh
+  unit_of_measurement: kWh
 - count: 2
   data_type: float
   name: L2 total kWh
@@ -605,84 +605,84 @@
   register: 360
   register_type: input
   slave: 1
-  unit_of_measurement: kwh
+  unit_of_measurement: kWh
 - count: 2
   data_type: float
-  name: L3 total kwh
+  name: L3 total kWh
   precision: 2
   register: 362
   register_type: input
   slave: 1
-  unit_of_measurement: kwh
+  unit_of_measurement: kWh
 - count: 2
   data_type: float
-  name: L1 import kvarh
+  name: L1 import kVArh
   precision: 2
   register: 364
   register_type: input
   slave: 1
-  unit_of_measurement: kvarh
+  unit_of_measurement: kVArh
 - count: 2
   data_type: float
-  name: L2 import kvarh
+  name: L2 import kVArh
   precision: 2
   register: 366
   register_type: input
   slave: 1
-  unit_of_measurement: kvarh
+  unit_of_measurement: kVArh
 - count: 2
   data_type: float
-  name: L3 import kvarh
+  name: L3 import kVArh
   precision: 2
   register: 368
   register_type: input
   slave: 1
-  unit_of_measurement: kvarh
+  unit_of_measurement: kVArh
 - count: 2
   data_type: float
-  name: L1 export kvarh
+  name: L1 export kVArh
   precision: 2
   register: 370
   register_type: input
   slave: 1
-  unit_of_measurement: kvarh
+  unit_of_measurement: kVArh
 - count: 2
   data_type: float
-  name: L2 export kvarh
+  name: L2 export kVArh
   precision: 2
   register: 372
   register_type: input
   slave: 1
-  unit_of_measurement: kvarh
+  unit_of_measurement: kVArh
 - count: 2
   data_type: float
-  name: L3 export kvarh
+  name: L3 export kVArh
   precision: 2
   register: 374
   register_type: input
   slave: 1
-  unit_of_measurement: kvarh
+  unit_of_measurement: kVArh
 - count: 2
   data_type: float
-  name: L1 total kvarh
+  name: L1 total kVArh
   precision: 2
   register: 376
   register_type: input
   slave: 1
-  unit_of_measurement: kvarh
+  unit_of_measurement: kVArh
 - count: 2
   data_type: float
-  name: L2 total kvarh
+  name: L2 total kVArh
   precision: 2
   register: 378
   register_type: input
   slave: 1
-  unit_of_measurement: kvarh
+  unit_of_measurement: kVArh
 - count: 2
   data_type: float
-  name: L3 total kvarh
+  name: L3 total kVArh
   precision: 2
   register: 380
   register_type: input
   slave: 1
-  unit_of_measurement: kvarh
+  unit_of_measurement: kVArh
