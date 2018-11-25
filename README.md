@@ -48,3 +48,17 @@ sensor:
 Once you have restarted Home-Assistant, you should see the sensors on the dashboard.
 
 ![dashboard](dashboard.jpg)
+
+## Usage
+
+In case you would like to generate the YAML file:
+
+```shell
+python3 -m venv venv3
+. ./venv3/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+./convert_raw2yml.py
+```
+
+The `data.txt` file comes from a simple copy/paste of the datasheet, plus minor manual corrections.
