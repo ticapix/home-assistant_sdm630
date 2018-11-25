@@ -10,7 +10,7 @@ Make sure that you get the Modbus version. At that time (25th nov 2018), the las
 
 RS485 is the hardware layer. Modbus is the communication protocol.
 
-You'll need a USB-RS485 mobule. You can find one on [Aliexpress for 2.5€](https://www.aliexpress.com/item/Industrial-USB-To-RS485-Converter-Upgrade-Protection-RS485-Converter-Compatibility-V2-0-Standard-RS-485-A/32888122294.html).
+You'll need a USB-RS485 module. You can find one on [Aliexpress for 2.5€](https://www.aliexpress.com/item/Industrial-USB-To-RS485-Converter-Upgrade-Protection-RS485-Converter-Compatibility-V2-0-Standard-RS-485-A/32888122294.html).
 
 For the connection, I used:
 
@@ -23,7 +23,7 @@ For the connection, I used:
 
 ## Home-Assistant
 
-You need to configure the `modbus` module with your own parameters and add the sensors. For convenience, the SDM630 registers are loaded from a separate file `sdm630_registers.yaml` that needs to be placed in the same directory then your `configuration.yaml` file.
+You need to configure the `modbus` module with your own parameters and add the sensors. For convenience, the SDM630 registers are loaded from a separate file [`sdm630_registers.yaml`](sdm630_registers.yaml) that needs to be placed in the same directory than your `configuration.yaml` file.
 
 ```yaml
 modbus:
