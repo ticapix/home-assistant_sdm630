@@ -149,7 +149,7 @@
   register: 36
   register_type: input
   slave: 1
-  unit_of_measurement: Degrees
+  unit_of_measurement: Degree
 - count: 2
   data_type: float
   name: Phase 2 phase angle
@@ -157,7 +157,7 @@
   register: 38
   register_type: input
   slave: 1
-  unit_of_measurement: Degrees
+  unit_of_measurement: Degree
 - count: 2
   data_type: float
   name: Phase 3 phase angle
@@ -165,7 +165,7 @@
   register: 40
   register_type: input
   slave: 1
-  unit_of_measurement: Degrees
+  unit_of_measurement: Degree
 - count: 2
   data_type: float
   name: Average line to neutral volts
@@ -229,7 +229,7 @@
   register: 66
   register_type: input
   slave: 1
-  unit_of_measurement: Degrees
+  unit_of_measurement: Degree
 - count: 2
   data_type: float
   name: Frequency of supply voltages
@@ -253,7 +253,7 @@
   register: 74
   register_type: input
   slave: 1
-  unit_of_measurement: kWH/MWh
+  unit_of_measurement: kWh/MWh
 - count: 2
   data_type: float
   name: Import VArh since last reset

@@ -16,9 +16,9 @@
 30031 16 Phase 1 power factor. None 00 1E √ X √
 30033 17 Phase 2 power factor. None 00 20 √ X X
 30035 18 Phase 3 power factor. None 00 22 √ X X
-30037 19 Phase 1 phase angle. Degrees 00 24 √ X √
-30039 20 Phase 2 phase angle. Degrees 00 26 √ X X
-30041 21 Phase 3 phase angle. Degrees 00 28 √ X X
+30037 19 Phase 1 phase angle. Degree 00 24 √ X √
+30039 20 Phase 2 phase angle. Degree 00 26 √ X X
+30041 21 Phase 3 phase angle. Degree 00 28 √ X X
 30043 22 Average line to neutral volts. Volts 00 2A √ X X
 30047 24 Average line current. Amps 00 2E √ √ √
 30049 25 Sum of line currents. Amps 00 30 √ √ √
@@ -26,10 +26,10 @@
 30057 29 Total system volt amps. VA 00 38 √ √ √
 30061 31 Total system VAr. VAr 00 3C √ √ √
 30063 32 Total system power factor. None 00 3E √ √ √
-30067 34 Total system phase angle. Degrees 00 42 √ √ √
+30067 34 Total system phase angle. Degree 00 42 √ √ √
 30071 36 Frequency of supply voltages. Hz 00 46 √ √ √
 30073 37 Import Wh since last reset. kWh/MWh 00 48 √ √ √
-30075 38 Export Wh since last reset. kWH/MWh 00 4A √ √ √
+30075 38 Export Wh since last reset. kWh/MWh 00 4A √ √ √
 30077 39 Import VArh since last reset. kVArh/MVArh 00 4C √ √ √
 30079 40 Export VArh since last reset. kVArh/MVArh 00 4E √ √ √
 30081 41 VAh since last reset. kVAh/MVAh 00 50 √ √ √
