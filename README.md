@@ -49,6 +49,8 @@ Once you have restarted Home-Assistant, you should see the sensors on the dashbo
 
 ![dashboard](dashboard.jpg)
 
+![history](history.jpg)
+
 ## Usage
 
 In case you would like to generate the YAML file:
