@@ -38,8 +38,6 @@ modbus:
 
 # Sensors
 sensor:
-  # Weather prediction
-  - platform: yr
   - platform: modbus
     registers: !include sdm630_registers.yaml
 
