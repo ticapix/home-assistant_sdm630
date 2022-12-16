@@ -17,12 +17,12 @@ if __name__ == "__main__":
                 'name': name,
                 'unit_of_measurement': unit,
                 'slave': 1,
-                'register': addr,
-                'register_type': 'input',
-                'data_type': 'float',
+                'address': addr,
+                'input_type': 'input',
+                'data_type': 'float32',
                 'precision': 2,
                 'count': 2
             }
             registers.append(register)
             print("[{}] {} ({})".format(addr, name, unit))
-    yaml.dump(registers, open('sdm630_registers.yaml', 'w'), default_flow_style=False)
+    yaml.dump(registers, open('sdm630_addresses.yaml', 'w'), default_flow_style=False)
