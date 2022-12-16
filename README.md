@@ -23,24 +23,19 @@ For the connection, I used:
 
 ## Home-Assistant
 
-You need to configure the `modbus` module with your own parameters and add the sensors. For convenience, the SDM630 registers are loaded from a separate file [`sdm630_registers.yaml`](sdm630_registers.yaml) that needs to be placed in the same directory than your `configuration.yaml` file.
+You need to configure the `modbus` module with your own parameters and add the sensors. For convenience, the SDM630 registers are loaded from a separate file [`sdm630_addresses.yaml`](sdm630_addresses.yaml) that needs to be placed in the same directory than your `configuration.yaml` file.
 
 ```yaml
 modbus:
-  type: serial
-  method: rtu
-  port: /dev/ttyUSB0
-  baudrate: 9600
-  stopbits: 1
-  bytesize: 8
-  parity: N
-
-
-# Sensors
-sensor:
-  - platform: modbus
-    registers: !include sdm630_registers.yaml
-
+  - name: SDM630
+    type: serial
+    method: rtu
+    port: /dev/ttyUSB0
+    baudrate: 9600
+    stopbits: 1
+    bytesize: 8
+    parity: N
+    sensors: !include sdm630_addresses.yaml
 ```
 
 Once you have restarted Home-Assistant, you should see the sensors on the dashboard.
@@ -61,4 +56,4 @@ pip install -r requirements.txt
 ./convert_raw2yml.py
 ```
 
-The `data.txt` file comes from a simple copy/paste of the datasheet, plus minor manual corrections.
+The `data.txt` file comes from a simple copy/paste of the [datasheet](https://bg-etech.de/download/manual/SDM630Register.pdf), plus minor manual corrections
