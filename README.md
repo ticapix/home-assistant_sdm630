@@ -56,4 +56,4 @@ pip install -r requirements.txt
 ./convert_raw2yml.py
 ```
 
-The `data.txt` file comes from a simple copy/paste of the datasheet, plus minor manual corrections.
+The `data.txt` file comes from a simple copy/paste of the [datasheet](https://bg-etech.de/download/manual/SDM630Register.pdf), plus minor manual corrections
